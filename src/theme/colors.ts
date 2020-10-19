@@ -1,5 +1,6 @@
 const colors = {
   primary: {
+    100: '#F1EEFD',
     200: '#9E8AEF',
     300: '#9179ED',
     400: '#8369EA',
@@ -9,6 +10,7 @@ const colors = {
     800: '#523EA2',
   },
   secondary: {
+    100: '#FFE6F1',
     200: '#FF4D9A',
     300: '#FF338B',
     400: '#FF1A7D',
