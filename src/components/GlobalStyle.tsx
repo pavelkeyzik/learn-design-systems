@@ -1,0 +1,26 @@
+import React from 'react';
+import { css, Global } from '@emotion/core';
+import { theme } from '../theme';
+
+const globalStyles = css`
+  body {
+    font-family: ${theme.typography.baseFont};
+    font-size: ${theme.typography.baseSize};
+    margin: 0;
+    padding: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  a {
+    color: ${theme.colors.secondary[800]};
+  }
+`;
+
+function GlobalStyle() {
+  return <Global styles={globalStyles} />;
+}
+
+export { GlobalStyle };
