@@ -1,3 +1,5 @@
+import { css } from '@emotion/core'
+
 const typography = {
   baseSize: '18px',
   baseFont: '"Lato", sans-serif',
@@ -9,4 +11,10 @@ const typography = {
   copyright: '0.75rem',
 }
 
-export { typography };
+const paragraphStyles = css`
+  font-family: inherit;
+  font-size: ${typography.paragarph};
+  line-height: 27px;
+`;
+
+export { typography, paragraphStyles };

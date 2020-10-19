@@ -1,14 +1,15 @@
 import styled from '@emotion/styled'
 import { theme } from '../theme';
+import { paragraphStyles } from '../theme/typography';
 
 const ButtonBase = styled.button`
-  font-size: ${theme.typography.paragarph};
   padding: ${theme.spacing[2]} ${theme.spacing[5]};
   border-radius: ${theme.corner.radius};
-  font-family: inherit;
   transition: background-color .2s;
   border: none;
   cursor: pointer;
+
+  ${paragraphStyles}
 `;
 
 const PrimaryButton = styled(ButtonBase)`
