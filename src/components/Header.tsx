@@ -73,9 +73,38 @@ const HeaderLogo = styled.a`
   }
 `;
 
+const HeaderSocialMedia = styled.div`
+  display: flex;
+  align-items: center;
+  // TODO: Move to a property like "ml" or something to be able easily
+  // change position of this component
+  margin-left: ${theme.spacing[6]};
+
+  & > *:not(:last-child) {
+    margin-right: ${theme.spacing[4]};
+  }
+`;
+
+const HeaderSocialMediaItem = styled.a`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  color: ${theme.colors.text};
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+
+  :hover {
+    color: ${theme.colors.neutral[500]};
+  }
+`;
+
 Header.Item = HeaderItem;
 Header.Menu = HeaderMenu;
 Header.MenuItem = HeaderMenuItem;
 Header.Logo = HeaderLogo;
+Header.SocialMedia = HeaderSocialMedia;
+Header.SocialMediaItem = HeaderSocialMediaItem;
 
 export { Header };
