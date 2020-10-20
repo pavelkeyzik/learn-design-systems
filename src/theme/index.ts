@@ -1,13 +1,15 @@
 import { colors } from './colors';
+import { corner } from './corner';
+import { sizes } from './sizes';
 import { spacing } from './spacing';
 import { typography } from './typography';
-import { corner } from './corner';
 
 const theme = {
   colors,
+  corner,
+  sizes,
   spacing,
   typography,
-  corner,
-}
+};
 
-export { theme }
+export { theme };

@@ -4,6 +4,7 @@ import { theme } from '../theme';
 
 const globalStyles = css`
   body {
+    background-color: ${theme.colors.neutral[200]};
     font-family: ${theme.typography.baseFont};
     font-size: ${theme.typography.baseSize};
     margin: 0;

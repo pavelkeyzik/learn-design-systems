@@ -11,10 +11,20 @@ const typography = {
   copyright: '0.75rem',
 }
 
-const paragraphStyles = css`
+const baseFontStyles = css`
   font-family: inherit;
+`;
+
+const paragraphStyles = css`
+  ${baseFontStyles}
   font-size: ${typography.paragarph};
   line-height: 27px;
 `;
 
-export { typography, paragraphStyles };
+const heading4Styles = css`
+  ${baseFontStyles}
+  font-size: ${typography.heading4};
+  line-height: 37.5px;
+`;
+
+export { typography, paragraphStyles, heading4Styles };
