@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import styled from '@emotion/styled';
 import { theme } from '../theme';
 import { UserIcon } from '../assets';
+import { useIsImageBroken } from '../hooks/use-is-image-broken';
 
 const AvatarBase = styled.div`
   display: flex;
@@ -27,13 +28,9 @@ function Avatar(
     HTMLImageElement
   >
 ) {
-  const [isSrcBroken, setIsSrcBroken] = useState(false);
+  const { isBroken, onSrcError } = useIsImageBroken();
 
-  function handleSrcError() {
-    setIsSrcBroken(true);
-  }
-
-  if (!props.src || isSrcBroken) {
+  if (!props.src || isBroken) {
     return (
       <AvatarBase>
         <IconContainer>
@@ -48,7 +45,7 @@ function Avatar(
       <img
         {...props}
         alt={props.alt || "User's avatar"}
-        onError={handleSrcError}
+        onError={props.onError || onSrcError}
       />
     </AvatarBase>
   );
