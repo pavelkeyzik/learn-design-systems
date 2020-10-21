@@ -42,7 +42,6 @@ const HeaderMenu = styled.nav`
 `;
 
 const HeaderMenuItem = styled.a`
-  color: ${theme.colors.text};
   ${paragraphStyles}
 `;
 
@@ -59,12 +58,12 @@ function Header(props: HeaderProps) {
 }
 
 const HeaderLogo = styled.a`
-  text-decoration: none;
   color: ${theme.colors.neutral[400]};
   ${heading4Styles}
 
   :hover {
     color: ${theme.colors.neutral[500]};
+    text-decoration: none;
   }
 `;
 
