@@ -1,11 +1,11 @@
-import styled from '@emotion/styled'
+import styled from '@emotion/styled';
 import { theme } from '../theme';
 import { paragraphStyles } from '../theme/typography';
 
 const ButtonBase = styled.button`
   padding: ${theme.spacing[2]} ${theme.spacing[5]};
   border-radius: ${theme.corner.radius};
-  transition: background-color .2s;
+  transition: background-color 0.2s;
   border: none;
   cursor: pointer;
 

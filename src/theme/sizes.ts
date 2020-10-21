@@ -8,7 +8,7 @@ const sizes = {
 const centerContainerStyles = css`
   margin: 0 auto;
   width: 100%;
-  max-width: ${sizes.largeScreen};
+  max-width: calc((${spacing[6]} * 2) + ${sizes.largeScreen});
   padding: 0 ${spacing[6]};
 `;
 

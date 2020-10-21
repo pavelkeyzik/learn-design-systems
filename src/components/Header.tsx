@@ -43,12 +43,7 @@ const HeaderMenu = styled.nav`
 
 const HeaderMenuItem = styled.a`
   color: ${theme.colors.text};
-  text-decoration: none;
   ${paragraphStyles}
-
-  :hover {
-    text-decoration: underline;
-  }
 `;
 
 type HeaderProps = {

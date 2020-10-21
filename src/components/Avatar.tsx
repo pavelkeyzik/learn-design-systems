@@ -45,7 +45,11 @@ function Avatar(
 
   return (
     <AvatarBase>
-      <img {...props} onError={handleSrcError} />
+      <img
+        {...props}
+        alt={props.alt || "User's avatar"}
+        onError={handleSrcError}
+      />
     </AvatarBase>
   );
 }

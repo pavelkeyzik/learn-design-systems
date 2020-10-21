@@ -16,7 +16,12 @@ const globalStyles = css`
   }
 
   a {
-    color: ${theme.colors.secondary[800]};
+    color: ${theme.colors.text};
+    text-decoration: none;
+
+    :hover {
+      text-decoration: underline;
+    }
   }
 
   img {

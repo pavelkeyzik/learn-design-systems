@@ -5,6 +5,6 @@ const spacing = {
   4: '24px',
   5: '32px',
   6: '40px',
-}
+};
 
 export { spacing };

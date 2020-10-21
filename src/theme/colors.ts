@@ -29,6 +29,6 @@ const colors = {
   },
   text: '#181818',
   textInverted: '#ffffff',
-}
+};
 
 export { colors };
