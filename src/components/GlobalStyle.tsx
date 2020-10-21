@@ -18,6 +18,10 @@ const globalStyles = css`
   a {
     color: ${theme.colors.secondary[800]};
   }
+
+  img {
+    vertical-align: middle;
+  }
 `;
 
 function GlobalStyle() {
