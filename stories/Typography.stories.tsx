@@ -2,7 +2,7 @@ import React from 'react';
 import { H1, H2, H3, H4, H5, P } from '../src/components/Typography';
 
 export default {
-  title: 'Components/Typography',
+  title: 'Design Tokens/Typography',
 };
 
 export function TypeScale() {
