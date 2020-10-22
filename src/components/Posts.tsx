@@ -69,6 +69,24 @@ function PostMedia(props: PostMediaProps) {
   );
 }
 
+const PostFooter = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+`;
+
+const PostUserInfo = styled.div`
+  display: flex;
+  align-items: center;
+
+  & > *:not(:first-child) {
+    // TODO: Add as property "ml" or something
+    margin-left: ${theme.spacing[3]};
+  }
+`;
+
 Post.Media = PostMedia;
+Post.Footer = PostFooter;
+Post.UserInfo = PostUserInfo;
 
 export { Posts, Post };

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Post, Posts } from '../src/components/Posts';
 import { H2, P } from '../src/components/Typography';
+import { Avatar } from '../src/components/Avatar';
 
 export default {
   title: 'Components/Posts',
@@ -16,6 +17,13 @@ export function Default() {
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout.
         </P>
+        <Post.Footer>
+          <Post.UserInfo>
+            <Avatar />
+            <P>User Name</P>
+          </Post.UserInfo>
+          <P>4 Oct, 2020</P>
+        </Post.Footer>
       </Post>
       <Post>
         <Post.Media src="https://picsum.photos/seed/picsum/400/250" />
@@ -24,6 +32,13 @@ export function Default() {
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout.
         </P>
+        <Post.Footer>
+          <Post.UserInfo>
+            <Avatar />
+            <P>User Name</P>
+          </Post.UserInfo>
+          <P>4 Oct, 2020</P>
+        </Post.Footer>
       </Post>
       <Post>
         <Post.Media src="" />
@@ -32,6 +47,13 @@ export function Default() {
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout.
         </P>
+        <Post.Footer>
+          <Post.UserInfo>
+            <Avatar />
+            <P>User Name</P>
+          </Post.UserInfo>
+          <P>4 Oct, 2020</P>
+        </Post.Footer>
       </Post>
     </Posts>
   );
