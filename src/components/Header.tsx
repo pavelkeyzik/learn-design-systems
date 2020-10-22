@@ -60,6 +60,7 @@ function Header(props: HeaderProps) {
 const HeaderLogo = styled.a`
   color: ${theme.colors.neutral[400]};
   ${heading4Styles}
+  margin-top: 0;
 
   :hover {
     color: ${theme.colors.neutral[500]};

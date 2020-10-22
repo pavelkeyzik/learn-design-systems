@@ -15,8 +15,6 @@ const typography = {
 
 const baseFontStyles = css`
   font-family: inherit;
-  margin: 0;
-  padding: 0;
 `;
 
 const paragraphStyles = css`
