@@ -5,7 +5,7 @@ import {
   MailIcon,
   TwitterIcon,
   UserIcon,
-} from '../src/assets';
+} from '../../src/assets';
 
 export default {
   title: 'Assets/Icons',

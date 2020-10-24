@@ -1,6 +1,6 @@
 import React from 'react';
-import { GitHubIcon, MailIcon, TwitterIcon } from '../src/assets';
-import { Header } from '../src/components/Header';
+import { GitHubIcon, MailIcon, TwitterIcon } from '../../src/assets';
+import { Header } from '../../src/components/Header';
 
 export default {
   title: 'Components/Header',

@@ -1,7 +1,7 @@
 import React from 'react';
-import { Post, Posts } from '../src/components/Posts';
-import { H2, P } from '../src/components/Typography';
-import { Avatar } from '../src/components/Avatar';
+import { Post, Posts } from '../../src/components/Posts';
+import { H2, P } from '../../src/components/Typography';
+import { Avatar } from '../../src/components/Avatar';
 
 export default {
   title: 'Components/Posts',

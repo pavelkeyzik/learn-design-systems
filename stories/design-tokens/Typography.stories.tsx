@@ -1,5 +1,5 @@
 import React from 'react';
-import { H1, H2, H3, H4, H5, P } from '../src/components/Typography';
+import { H1, H2, H3, H4, H5, P } from '../../src/components/Typography';
 
 export default {
   title: 'Design Tokens/Typography',

@@ -1,7 +1,7 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
 import { boolean, text } from '@storybook/addon-knobs';
-import { PrimaryButton, SecondaryButton, TertiaryButton } from '../src';
+import { PrimaryButton, SecondaryButton, TertiaryButton } from '../../src';
 
 export default {
   title: 'Components/Buttons',
