@@ -22,7 +22,7 @@ export function Default() {
         <Post.Footer mt={5}>
           <Post.UserInfo>
             <Avatar />
-            <P>User Name</P>
+            <P ml={3}>User Name</P>
           </Post.UserInfo>
           <P>4 Oct, 2020</P>
         </Post.Footer>
@@ -39,7 +39,7 @@ export function Default() {
         <Post.Footer mt={5}>
           <Post.UserInfo>
             <Avatar />
-            <P>User Name</P>
+            <P ml={3}>User Name</P>
           </Post.UserInfo>
           <P>4 Oct, 2020</P>
         </Post.Footer>
@@ -56,7 +56,7 @@ export function Default() {
         <Post.Footer mt={5}>
           <Post.UserInfo>
             <Avatar />
-            <P>User Name</P>
+            <P ml={3}>User Name</P>
           </Post.UserInfo>
           <P>4 Oct, 2020</P>
         </Post.Footer>

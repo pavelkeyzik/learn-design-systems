@@ -80,11 +80,6 @@ const PostFooter = styled.div<CommonProps>`
 const PostUserInfo = styled.div`
   display: flex;
   align-items: center;
-
-  & > *:not(:first-child) {
-    // TODO: Add as property "ml" or something
-    margin-left: ${theme.spacing[3]};
-  }
 `;
 
 Post.Media = PostMedia;
