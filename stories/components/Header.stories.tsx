@@ -19,7 +19,7 @@ export function Default() {
         <Header.MenuItem href="#latest-works">Latest works</Header.MenuItem>
       </Header.Menu>
       <Header.Item>
-        <Header.SocialMedia>
+        <Header.SocialMedia ml={6}>
           <Header.SocialMediaItem
             href="https://github.com/pavelkeyzik"
             target="_blank"

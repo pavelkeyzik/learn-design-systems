@@ -4,6 +4,7 @@ import { theme } from '../theme';
 import { css } from '@emotion/core';
 import { heading4Styles, paragraphStyles } from '../theme/typography';
 import { centerContainerStyles } from '../theme/sizes';
+import { COMMON, CommonProps } from './constants';
 
 const HeaderContainer = styled.div`
   display: flex;
@@ -68,12 +69,10 @@ const HeaderLogo = styled.a`
   }
 `;
 
-const HeaderSocialMedia = styled.div`
+const HeaderSocialMedia = styled.div<CommonProps>`
   display: flex;
   align-items: center;
-  // TODO: Move to a property like "ml" or something to be able easily
-  // change position of this component
-  margin-left: ${theme.spacing[6]};
+  ${COMMON}
 
   & > *:not(:last-child) {
     margin-right: ${theme.spacing[4]};
