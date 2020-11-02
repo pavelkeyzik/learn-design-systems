@@ -1,14 +1,17 @@
 import React from 'react';
-import { GlobalStyle } from '../src/components/GlobalStyle'
+import { GlobalStyle } from '../src/components/GlobalStyle';
+import { ThemeProvider } from '../src/components/ThemeProvider';
 
 export const decorators = [
-  Story => (
+  (Story) => (
     <React.Fragment>
       <GlobalStyle />
-      <Story />
+      <ThemeProvider>
+        <Story />
+      </ThemeProvider>
     </React.Fragment>
-  )
-]
+  ),
+];
 
 export const parameters = {
   actions: { argTypesRegex: '^on.*' },

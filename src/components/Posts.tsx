@@ -3,6 +3,7 @@ import styled from '@emotion/styled';
 import { theme } from '../theme';
 import { useIsImageBroken } from '../hooks/use-is-image-broken';
 import { ImageIcon } from '../assets';
+import { COMMON, CommonProps } from './constants';
 
 const Posts = styled.section`
   display: grid;
@@ -69,10 +70,11 @@ function PostMedia(props: PostMediaProps) {
   );
 }
 
-const PostFooter = styled.div`
+const PostFooter = styled.div<CommonProps>`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  ${COMMON}
 `;
 
 const PostUserInfo = styled.div`

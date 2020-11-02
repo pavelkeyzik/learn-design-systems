@@ -1,8 +1,9 @@
-import styled from '@emotion/styled';
+import styled from '../styled';
+import { space, SpaceProps } from 'styled-system';
 import { theme } from '../theme';
 import { paragraphStyles } from '../theme/typography';
 
-const ButtonBase = styled.button`
+const ButtonBase = styled.button<SpaceProps>`
   padding: ${theme.spacing[2]} ${theme.spacing[5]};
   border-radius: ${theme.corner.radius};
   transition: background-color 0.2s;
@@ -10,6 +11,7 @@ const ButtonBase = styled.button`
   cursor: pointer;
 
   ${paragraphStyles}
+  ${space}
 `;
 
 const PrimaryButton = styled(ButtonBase)`

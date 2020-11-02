@@ -12,12 +12,14 @@ export function Default() {
     <Posts>
       <Post>
         <Post.Media src="https://picsum.photos/seed/picsum/400/250" />
-        <H2>Little Thinks Do Make</H2>
+        <H2 mt={4} mb={3}>
+          Little Thinks Do Make
+        </H2>
         <P>
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout.
         </P>
-        <Post.Footer>
+        <Post.Footer mt={5}>
           <Post.UserInfo>
             <Avatar />
             <P>User Name</P>
@@ -27,12 +29,14 @@ export function Default() {
       </Post>
       <Post>
         <Post.Media src="https://picsum.photos/seed/picsum/400/250" />
-        <H2>Little Thinks Do Make</H2>
+        <H2 mt={4} mb={3}>
+          Little Thinks Do Make
+        </H2>
         <P>
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout.
         </P>
-        <Post.Footer>
+        <Post.Footer mt={5}>
           <Post.UserInfo>
             <Avatar />
             <P>User Name</P>
@@ -42,12 +46,14 @@ export function Default() {
       </Post>
       <Post>
         <Post.Media src="" />
-        <H2>Little Thinks Do Make</H2>
+        <H2 mt={4} mb={3}>
+          Little Thinks Do Make
+        </H2>
         <P>
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout.
         </P>
-        <Post.Footer>
+        <Post.Footer mt={5}>
           <Post.UserInfo>
             <Avatar />
             <P>User Name</P>
