@@ -7,11 +7,7 @@ type ThemeProviderProps = {
 };
 
 function ThemeProvider(props: ThemeProviderProps) {
-  return (
-    <ThemeProviderBase theme={theme.styledSystemTheme}>
-      {props.children}
-    </ThemeProviderBase>
-  );
+  return <ThemeProviderBase theme={theme}>{props.children}</ThemeProviderBase>;
 }
 
 export { ThemeProvider };
