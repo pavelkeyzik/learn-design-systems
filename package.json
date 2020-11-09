@@ -1,4 +1,6 @@
 {
+  "name": "@pavelkeyzik/design-system",
+  "author": "Pavel Keyzik",
   "version": "0.1.2",
   "license": "MIT",
   "main": "dist/index.js",
@@ -35,12 +37,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@pavelkeyzik/learn-design-systems",
-  "author": "Pavel Keyzik",
   "module": "dist/design-system.esm.js",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "repository": {
     "url": "git://github.com/pavelkeyzik/learn-design-systems.git"
   },
@@ -81,5 +78,13 @@
     "@emotion/core": "^10.0.35",
     "@emotion/styled": "^10.0.27",
     "styled-system": "^5.1.5"
+  },
+  "description": "Hi! I'm really into design systems, so now I'm planning to learn design systems through building my own. Just for practice :ship:",
+  "bugs": {
+    "url": "https://github.com/pavelkeyzik/learn-design-systems/issues"
+  },
+  "homepage": "https://github.com/pavelkeyzik/learn-design-systems#readme",
+  "directories": {
+    "example": "example"
   }
 }
